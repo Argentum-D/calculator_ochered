@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Pashul`kin\CLionProjects\untitled1
+CMAKE_SOURCE_DIR = C:\Users\Pashul`kin\CLionProjects\untitled4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Pashul`kin\CLionProjects\untitled1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Pashul`kin\CLionProjects\untitled4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pashul`kin\CLionProjects\untitled1\cmake-build-debug\CMakeFiles C:\Users\Pashul`kin\CLionProjects\untitled1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pashul`kin\CLionProjects\untitled4\cmake-build-debug\CMakeFiles C:\Users\Pashul`kin\CLionProjects\untitled4\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pashul`kin\CLionProjects\untitled1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pashul`kin\CLionProjects\untitled4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,44 +115,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled1
+# Target rules for targets named untitled4
 
 # Build rule for target.
-untitled1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) untitled1
-.PHONY : untitled1
+untitled4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) untitled4
+.PHONY : untitled4
 
 # fast build rule for target.
-untitled1\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled1.dir\build
-.PHONY : untitled1\fast
+untitled4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\build
+.PHONY : untitled4\fast
 
-main.obj: main.c.obj
+main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled1.dir\main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled1.dir\main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled1.dir\main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled4.dir\main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -162,7 +162,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled1
+	@echo ... untitled4
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
